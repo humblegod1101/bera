@@ -1,0 +1,21 @@
+# FROM: ./create-erc20-contract-using-foundry
+
+forge init; # forge init --force; # if there is already an existing .git repository associated
+
+# [Expected Output]:
+# ...
+# Resolving deltas: 100% (129/129), done.
+#     Installed forge-std v1.7.1
+#     Initialized forge project
+# FROM: ./create-erc20-contract-using-foundry
+.
+├── README.md
+├── foundry.toml
+├── lib
+│   └── forge-std
+├── script
+│   └── Counter.s.sol
+├── src
+│   └── Counter.sol
+└── test
+    └── Counter.t.sol
